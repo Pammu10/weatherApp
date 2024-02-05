@@ -71,6 +71,7 @@ export default function Navbar({ location }: Props) {
           setTimeout(() => {
             setLoadingCity(false);
             setPlace(response.data.name);
+            setCity("");
           }, 500);
         } catch (error) {
           setLoadingCity(false);
