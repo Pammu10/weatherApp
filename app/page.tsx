@@ -16,8 +16,6 @@ import { useAtom } from "jotai";
 import { loadingCityAtom, placeAtom } from "./atom";
 import { useEffect } from "react";
 
-// https://api.openweathermap.org/data/2.5/forecast?q=pune&appid=4117b0daf8f0995b9cb10b2960e08870&cnt=56
-
 interface WeatherDetail {
   dt: number;
   main: {
